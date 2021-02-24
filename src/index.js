@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "@ingka/svg-icon/dist/style.css";
+import "@ingka/button/dist/style.css";
+import "@ingka/carousel/dist/style.css";
+import "@ingka/focus/dist/style.css";
+import '@ingka/page-container/dist/style.css';
 
 ReactDOM.render(
   <React.StrictMode>

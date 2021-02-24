@@ -1,24 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Button from "@ingka/button";
+import Carousel from "./components/Carousel";
+
+const images = [
+  {
+    src:
+      "https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=xxxl",
+    srcSet:
+      "https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=s 576w, https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=xl 900w, https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=xxxl 1200w",
+  },
+  {
+    src:
+      "https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xxxl",
+    srcSet:
+      "https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xxxs%20240w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xxs%20300w,    https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xs%20400w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=s%20500w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=m%20600w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=l%20750w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xl%20800w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xxl%20950w, https://www.ikea.com/ext/ingkadam/m/2e1b9dfcff9015b6/original/PH164183-crop002.jpg?f=xxxl%201400w",
+  },
+  {
+    src:
+      "https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=xxxl",
+    srcSet:
+      "https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=s 576w, https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=xl 900w, https://www.ikea.com/images/et-sovevaerelse-med-rosafarvede-vaegge-et-garderobeskab-med--5d3451b2bd760196a08541ebb59c352a.jpg?f=xxxl 1200w",
+  },
+];
 
 function App() {
+  const handleClick = () => {};
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className="header">
+        <div className="page-container">
+          <div className="page-container__inner">
+            <div className="header__container page-container__main">
+              <div className="header__logo">
+                <a href="https://www.ikea.com/us/en/" className="link">
+                  <img
+                    src="https://www.ikea.com/us/en/static/ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63.svg"
+                    alt="IKEA"
+                    title="IKEA"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
-    </div>
+      <main className="page-container">
+        <div className="page-container__inner">
+          <div className="page-container__main">
+            <Carousel images={images} />
+            <div className="cart-button">
+              <Button
+                type="primary"
+                onClick={handleClick}
+                text="Continue to your Cart"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+    </>
   );
 }
 
