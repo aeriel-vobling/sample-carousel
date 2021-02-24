@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/sample-carousel/static/css/main.96fe7d93.chunk.css",
-    "main.js": "/sample-carousel/static/js/main.d8b6fdb9.chunk.js",
-    "main.js.map": "/sample-carousel/static/js/main.d8b6fdb9.chunk.js.map",
-    "runtime-main.js": "/sample-carousel/static/js/runtime-main.bc770f20.js",
-    "runtime-main.js.map": "/sample-carousel/static/js/runtime-main.bc770f20.js.map",
-    "static/css/2.af5b0574.chunk.css": "/sample-carousel/static/css/2.af5b0574.chunk.css",
-    "static/js/2.1ae8da3a.chunk.js": "/sample-carousel/static/js/2.1ae8da3a.chunk.js",
-    "static/js/2.1ae8da3a.chunk.js.map": "/sample-carousel/static/js/2.1ae8da3a.chunk.js.map",
-    "static/js/3.3d9357be.chunk.js": "/sample-carousel/static/js/3.3d9357be.chunk.js",
-    "static/js/3.3d9357be.chunk.js.map": "/sample-carousel/static/js/3.3d9357be.chunk.js.map",
+    "main.css": "/sample-carousel/static/css/main.73a9f827.chunk.css",
+    "main.js": "/sample-carousel/static/js/main.b7317b57.chunk.js",
+    "main.js.map": "/sample-carousel/static/js/main.b7317b57.chunk.js.map",
+    "runtime-main.js": "/sample-carousel/static/js/runtime-main.0d4cda71.js",
+    "runtime-main.js.map": "/sample-carousel/static/js/runtime-main.0d4cda71.js.map",
+    "static/css/2.10e692ae.chunk.css": "/sample-carousel/static/css/2.10e692ae.chunk.css",
+    "static/js/2.2c3da734.chunk.js": "/sample-carousel/static/js/2.2c3da734.chunk.js",
+    "static/js/2.2c3da734.chunk.js.map": "/sample-carousel/static/js/2.2c3da734.chunk.js.map",
+    "static/js/3.36d10c0a.chunk.js": "/sample-carousel/static/js/3.36d10c0a.chunk.js",
+    "static/js/3.36d10c0a.chunk.js.map": "/sample-carousel/static/js/3.36d10c0a.chunk.js.map",
     "index.html": "/sample-carousel/index.html",
-    "static/css/2.af5b0574.chunk.css.map": "/sample-carousel/static/css/2.af5b0574.chunk.css.map",
-    "static/css/main.96fe7d93.chunk.css.map": "/sample-carousel/static/css/main.96fe7d93.chunk.css.map",
-    "static/js/2.1ae8da3a.chunk.js.LICENSE.txt": "/sample-carousel/static/js/2.1ae8da3a.chunk.js.LICENSE.txt"
+    "static/css/2.10e692ae.chunk.css.map": "/sample-carousel/static/css/2.10e692ae.chunk.css.map",
+    "static/css/main.73a9f827.chunk.css.map": "/sample-carousel/static/css/main.73a9f827.chunk.css.map",
+    "static/js/2.2c3da734.chunk.js.LICENSE.txt": "/sample-carousel/static/js/2.2c3da734.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sample-carousel/static/media/NotoSansJP-Thin.4d3e348a.otf",
+    "static/media/ikea-logo.c1504387.svg": "/sample-carousel/static/media/ikea-logo.c1504387.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc770f20.js",
-    "static/css/2.af5b0574.chunk.css",
-    "static/js/2.1ae8da3a.chunk.js",
-    "static/css/main.96fe7d93.chunk.css",
-    "static/js/main.d8b6fdb9.chunk.js"
+    "static/js/runtime-main.0d4cda71.js",
+    "static/css/2.10e692ae.chunk.css",
+    "static/js/2.2c3da734.chunk.js",
+    "static/css/main.73a9f827.chunk.css",
+    "static/js/main.b7317b57.chunk.js"
   ]
 }
