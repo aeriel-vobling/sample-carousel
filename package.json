@@ -8,6 +8,7 @@
     "@ingka/carousel": "^5.1.0",
     "@ingka/page-container": "^2.0.7",
     "@ingka/ssr-icon": "^2.6.0",
+    "@ingka/typography": "^2.0.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

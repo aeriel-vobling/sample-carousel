@@ -8,6 +8,7 @@ import "@ingka/button/dist/style.css";
 import "@ingka/carousel/dist/style.css";
 import "@ingka/focus/dist/style.css";
 import '@ingka/page-container/dist/style.css';
+import '@ingka/typography/dist/style.css';
 
 ReactDOM.render(
   <React.StrictMode>
