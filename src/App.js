@@ -1,6 +1,8 @@
 import React from "react";
+import "./App.css";
 import Button from "@ingka/button";
 import Carousel from "./components/Carousel";
+import logo from "./assets/images/ikea-logo.svg";
 
 const images = [
   {
@@ -23,22 +25,24 @@ const images = [
   },
 ];
 
+const lang = "jp";
+
+const fontFamily = {
+  jp: "NotoSansJP",
+};
+
 function App() {
   const handleClick = () => {};
 
   return (
-    <>
+    <div style={{ fontFamily: fontFamily[lang] }}>
       <header className="header">
         <div className="page-container">
           <div className="page-container__inner">
             <div className="header__container page-container__main">
               <div className="header__logo">
                 <a href="https://www.ikea.com/us/en/" className="link">
-                  <img
-                    src="https://www.ikea.com/us/en/static/ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63.svg"
-                    alt="IKEA"
-                    title="IKEA"
-                  />
+                  <img src={logo} alt="IKEA" title="IKEA" />
                 </a>
               </div>
             </div>
@@ -59,7 +63,7 @@ function App() {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }
 
