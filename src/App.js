@@ -41,7 +41,7 @@ function App() {
           <div className="page-container__inner">
             <div className="header__container page-container__main">
               <div className="header__logo">
-                <a href="https://www.ikea.com/us/en/" className="link">
+                <a href={`https://www.ikea.com/${lang}`} className="link">
                   <img src={logo} alt="IKEA" title="IKEA" />
                 </a>
               </div>
