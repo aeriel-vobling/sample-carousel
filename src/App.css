@@ -35,6 +35,16 @@ body {
   padding: 0 !important;
 }
 
+.carousel__slide-show .carousel-slide > :first-child {
+  max-height: 0;
+}
+
+@media (orientation: landscape) and (max-width: 56.25em) {
+  .carousel__slide-show .carousel-slide > :first-child {
+    max-height: 0;
+  }
+}
+
 @media (min-width: 56.25em) {
   .header__logo {
     padding: 1.75rem 0;
