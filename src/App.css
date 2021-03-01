@@ -36,12 +36,12 @@ body {
 }
 
 .carousel__slide-show .carousel-slide > :first-child {
-  max-height: 0;
+  max-height: 0 !important;
 }
 
 @media (orientation: landscape) and (max-width: 56.25em) {
   .carousel__slide-show .carousel-slide > :first-child {
-    max-height: 0;
+    max-height: 0 !important;
   }
 }
 
