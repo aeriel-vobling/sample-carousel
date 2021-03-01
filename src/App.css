@@ -28,20 +28,20 @@ body {
 }
 
 .carousel-slide {
-  padding: 0 !important;
+  padding: 2px !important;
 }
 
 .carousel__slide-show .scroll-indicator {
-  padding: 0 !important;
+  padding: 2px !important;
 }
 
 .carousel__slide-show .carousel-slide > :first-child {
-  max-height: 0 !important;
+  max-height: inherit;
 }
 
 @media (orientation: landscape) and (max-width: 56.25em) {
   .carousel__slide-show .carousel-slide > :first-child {
-    max-height: 0 !important;
+    max-height: inherit;
   }
 }
 
