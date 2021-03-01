@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import CarouselOnly from "./pages/CarouselOnly";
@@ -27,7 +27,7 @@ const images = [
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <Switch>
         <Route exact path="/iframe/:sessionId">
           <CarouselOnly images={images} />
@@ -36,7 +36,7 @@ function App() {
           <Home images={images} />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
